@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /*Reset*/
+        html, body {
+            box-sizing: border-box;
+            height: 100vh;
+            width: 100vw;
+            padding: 0;
+            margin: 0;   
+        }
+        body {
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        h1, figure, img, article, section,th,td,table  {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        .cabecalho{
+            background-color: rgb(81, 214, 123);
+            width: 100%;
+            text-align: center;
+        }
+        .cabecalho__logotipo{
+            width: 100%;
+        }
+        .cabecalho__logotipo__img{
+            display: inline-block;
+            text-align: center;
+        }
+        .cabecalho__logotipo__img__titulo{
+            display: inline-block;
+            color: white;
+            display: flex;
+            align-items: center;
+        }
+        .cabecalho__logotipo__texto{
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <section class="cabecalho__logotipo">
+            <figure class="cabecalho__logotipo__img">
+                <img class="cabecalho__logotipo__img__logo" src="img/logo.png" alt="logo">
+                <h1 class="cabecalho__logotipo__img__titulo">progress</h1>
+            </figure>
+            <p class="cabecalho__logotipo__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Quidem asperiores reiciendis esse, nesciunt consequatur possimus.
+            </p>
+        </section>
+        <figure class="cabecalho__img">
+            <img class="cabecalho__img__cel" src="img/celularheader.png" alt="celular">
+        </figure>  
+    </header>
+</body>
+</html>
