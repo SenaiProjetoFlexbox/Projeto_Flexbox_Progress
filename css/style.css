@@ -70,6 +70,10 @@ h1, figure, img, article, section,th,td,table  {
 .conteudo-central__primeiro-artigo, .conteudo-central__segundo-artigo, .conteudo-central__terceiro-artigo {
     text-align: center;
 }
+
+.primeiro-artigo__img, .terceiro-artigo__img{
+    max-width: 100%;
+}
 /* Final CSS Marina e Ju */
 
 
