@@ -61,7 +61,7 @@ h1, figure, img, article, section,th,td,table  {
 /* Final CSS Mara */
 
 /* Inicio CSS Marina e Ju */
-.conteudo-central{
+.conteudo-central, .conteudo-central__primeira-sessão, .conteudo-central__segunda-sessão{
     display: flex;
     flex-direction: column; 
     padding: 30px;
