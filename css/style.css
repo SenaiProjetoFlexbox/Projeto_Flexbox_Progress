@@ -61,7 +61,7 @@ h1, figure, img, article, section,th,td,table  {
 /* Final CSS Mara */
 
 /* Inicio CSS Marina e Ju */
-.conteudo-central{
+.conteudo-central, .conteudo-central__primeira-sessão, .conteudo-central__segunda-sessão{
     display: flex;
     flex-direction: column; 
     padding: 30px;
@@ -71,3 +71,24 @@ h1, figure, img, article, section,th,td,table  {
     text-align: center;
 }
 /* Final CSS Marina e Ju */
+
+
+ /* Inicio estilo tablet 1 */
+@media(min-width: 768px){
+    .cabecalho{
+        display: flex;
+    }
+
+    .cabecalho__logotipo__texto{
+        text-align: justify;
+    }
+}
+    
+/*Final estilo tablet 1 */
+/* Inicio estilo desktop */
+    
+@media(min-width: 992px){
+    
+    
+}
+/* Final estilo desktop */
