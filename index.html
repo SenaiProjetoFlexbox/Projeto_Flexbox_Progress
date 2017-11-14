@@ -1,47 +1,28 @@
-<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tela FlexBox</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-<html lang="pt">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Tela 3 - flex box</title>
-
-
-    <style>
-    .conteudo-central{
-        display: flex;
-        flex-direction: column; 
-        padding: 30px;
-    }
-
-    .conteudo-central__primeiro-artigo, .conteudo-central__segundo-artigo .conteudo-central__terceiro-artigo {
-        text-align: center;
-    }
- 
- /*https://origamid.com/projetos/flexbox-guia-completo/*/
- 
- /* Inicio estilo tablet 1 */
-    @media(min-width: 768px){
-
-}
-
-/* Inicio estilo tablet 1 */
-/* Inicio estilo desktop */
-
-@media(min-width: 992px){
-
-
-}
-
-    </style>
-
-</head>
-
-<!-- Inicio Body* -->
 <body>
+    <header class="cabecalho">
+        <section class="cabecalho__logotipo">
+            <figure class="cabecalho__logotipo__img">
+                <img class="cabecalho__logotipo__img__logo" src="img/logo.png" alt="logo">
+                <h1 class="cabecalho__logotipo__img__titulo">progress</h1>
+            </figure>
+            <p class="cabecalho__logotipo__texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Quidem asperiores reiciendis esse, nesciunt consequatur possimus.
+            </p>
+        </section>
+        <figure class="cabecalho__img">
+            <img class="cabecalho__img__cel" src="img/celularheader.png" alt="celular">
+        </figure>  
+    </header>
+
     <main class="conteudo-central">
         <article class="conteudo-central__primeiro-artigo">
             <h2>
@@ -68,4 +49,10 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid harum maiores labore cumque aut, iusto non numquam rerum illum atque, ipsam culpa commodi autem quasi impedit sed. Quam, enim iste.</p>
         </article>
     </main>
+
+
+
+
+
 </body>
+</html>
