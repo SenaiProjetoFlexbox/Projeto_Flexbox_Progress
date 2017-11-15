@@ -73,22 +73,57 @@ h1, figure, img, article, section,th,td,table  {
 /* Final CSS Marina e Ju */
 
 
- /* Inicio estilo tablet 1 */
-@media(min-width: 768px){
-    .cabecalho{
-        display: flex;
-    }
 
-    .cabecalho__logotipo__texto{
-        text-align: justify;
-    }
+html, body, section, ul, li, img{
+    padding: 0;
+    margin: 0;        
 }
-    
-/*Final estilo tablet 1 */
-/* Inicio estilo desktop */
-    
-@media(min-width: 992px){
-    
-    
+
+.lista{
+    list-style: none;
 }
-/* Final estilo desktop */
+.grupo-imagens{
+    display: flex;
+}
+.primeiro-grupo{
+    display: flex;
+    flex-direction: row;
+
+}
+.convidar{
+    background: rgb(244, 244, 246);
+    text-align: center;
+}
+/*code Mara2*/
+.grupo-imagens{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.primeiro-grupo{
+    width: 100%;
+    display: flex;
+}
+.bloco1, .bloco2, .bloco3{
+    width: 100%;
+}
+.bloco1 li img{
+    width: 100%;
+}
+.bloco2{
+    width: 200%;
+    /* height: 99%; */
+    margin: 0;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* justify-content: center; */
+}
+.bloco2 img{
+    width: 100%;
+    /* height: 100%; */
+}
+.bloco3 li img{
+    width: 100%;
+}
