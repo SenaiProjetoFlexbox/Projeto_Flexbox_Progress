@@ -214,6 +214,21 @@ html, body, section, ul, li, img{
     }
     .terceiro-artigo__img{
         margin-left:50%;
-    }   
+    }  
+    
+    .bloco1, .bloco3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bloco1 li{
+        width: 50%;
+    }
+    .bloco3 li{
+        width: 50%;
+    }
 }
 /* Final estilo tablet 1 */
+
+@media(min-width: 992px){
+
+}
