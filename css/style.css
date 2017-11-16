@@ -139,7 +139,7 @@ html, body, section, ul, li, img{
     .conteudo-central__primeira-sessão {
         display: flex;
 }
-    .primeiro-artigo__img{
+    .primeiro-artigo__img, .terceiro-artigo__img{
         width: 50%;
 }   
     .conteudo-central__primeiro-artigo, .conteudo-central__segundo-artigo{
@@ -149,6 +149,17 @@ html, body, section, ul, li, img{
         text-align: left;
 }
     .conteudo-central__segundo-artigo{
-        top: 10%;
+        top: 82%;
 }          
+
+    .conteudo-central__terceiro-artigo{
+        position: absolute;
+        top: 116%;   
+        width: 39%;
+        text-align: left;
+}
+
+    .terceiro-artigo__img{
+        margin-left:50%;
+    }
     /* Final estilo tablet 1 */
