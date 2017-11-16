@@ -180,7 +180,17 @@ html, body, section, ul, li, img{
 
  /* Inicio estilo tablet 1 */
  @media(min-width: 768px){
-   
+
+    .cabecalho{
+        display: flex;
+    }
+    .cabecalho__logotipo__texto {
+        text-align: left;
+    }
+    .cabecalho__img {
+        justify-content: left;
+    }
+
     .conteudo-central__primeira-sessão {
         display: flex;
     }
