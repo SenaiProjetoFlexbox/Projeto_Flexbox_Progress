@@ -132,6 +132,51 @@ html, body, section, ul, li, img{
     width: 100%;
 }
 
+.convidar__descricao{
+    padding: 30px;
+    box-sizing: border-box;
+}
+.campo-input{
+    margin: 0;
+    padding: 20px 0px;
+}
+.campo-input__caixa{
+    position: relative;
+    right: -4px;
+    height: 25px;
+    border-radius: 5px 0px 0px 5px;
+}
+.campo-input__botao-convidar{
+    background: rgb(81, 214, 123);
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.pre-rodape{
+    background: rgb(81, 214, 123);
+    color: white;
+    text-align: center;
+    padding: 30px 20%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.pre-rodape__p1{
+    margin: 0;
+}
+.pre-rodape__p2{
+    margin: 0;
+    font-weight: bold;
+}  
+.rodape{
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgb(80, 78, 78);
+    color: gray;
+} 
 
  /* Inicio estilo tablet 1 */
  @media(min-width: 768px){
