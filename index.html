@@ -5,6 +5,53 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Tela FlexBox</title>
         <link rel="stylesheet" href="css/style.css">
+        <style>
+            .convidar__descricao{
+                padding: 30px;
+                box-sizing: border-box;
+            }
+            .campo-input{
+                margin: 0;
+                padding: 20px 0px;
+            }
+            .campo-input__caixa{
+                position: relative;
+                right: -4px;
+                height: 25px;
+                border-radius: 5px 0px 0px 5px;
+            }
+            .campo-input__botao-convidar{
+                background: rgb(81, 214, 123);
+                border-radius: 0px 5px 5px 0px;
+                color: white;
+                font-weight: bold;
+                border: none;
+                padding: 5px;
+                box-sizing: border-box;
+            }
+            .pre-rodape{
+                background: rgb(81, 214, 123);
+                color: white;
+                text-align: center;
+                padding: 30px 20%;
+                box-sizing: border-box;
+                margin: 0 auto;
+            }
+            .pre-rodape__p1{
+                margin: 0;
+            }
+            .pre-rodape__p2{
+                margin: 0;
+                font-weight: bold;
+            }  
+            .rodape{
+                text-align: center;
+                padding: 10px;
+                box-sizing: border-box;
+                background: rgb(80, 78, 78);
+                color: gray;
+            } 
+        </style>
     </head>
 
 <body>
@@ -57,7 +104,6 @@
     <section class="convidar">
         <h1>Bring Your Own Businnes</h1>
         <section class="grupo-imagens">
-            
                 <ul class="lista bloco1">
                         <li><img src="img/1parafuso.png" alt=""></li>
                         <li><img src="img/2barata.png" alt=""></li>
@@ -73,10 +119,26 @@
                         <li><img src="img/7notebook.png" alt=""></li>
                         <li><img src="img/8pa.png" alt=""></li>
                 </ul>
-           
+        </section>
+        <section class="convidar__descricao">
+            <h3 class="convidar__descricao__titulo">Flexible Platafform</h3>
+            <p class="convidar__descricao__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ad laborum necessitatibus 
+            quas delectus sit aut praesentium molestias repellendus suscipit modi accusamus sint quaerat
+            doloribus perferendis aperiam assumenda, eligendi blanditiis.</p>
+            <form class="campo-input" action="pesquisa.html">
+                <input class="campo-input__caixa" type="text">
+                <input class="campo-input__botao-convidar" type="submit" value="Submit">
+            </form>
+        </section>
     </section>
-    <footer>
-        &copy 2014 blba bla bla
+
+    <section class="pre-rodape">
+        <p class="pre-rodape__p1">Follow along on Twitter for all the lastest news!</p> 
+        <p class="pre-rodape__p2">@Progress_App</p>
+    </section>
+
+    <footer class="rodape">
+        <p class="rodape__texto"> &copy; 2014 blba bla bla</p>        
     </footer>
 
 
