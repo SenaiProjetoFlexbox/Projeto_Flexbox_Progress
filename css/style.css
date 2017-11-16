@@ -131,3 +131,24 @@ html, body, section, ul, li, img{
 .bloco3 li img{
     width: 100%;
 }
+
+
+ /* Inicio estilo tablet 1 */
+ @media(min-width: 768px){
+   
+    .conteudo-central__primeira-sessão {
+        display: flex;
+}
+    .primeiro-artigo__img{
+        width: 50%;
+}   
+    .conteudo-central__primeiro-artigo, .conteudo-central__segundo-artigo{
+        position: absolute;
+        width: 42%;
+        margin-left: 47%;
+        text-align: left;
+}
+    .conteudo-central__segundo-artigo{
+        top: 10%;
+}          
+    /* Final estilo tablet 1 */
